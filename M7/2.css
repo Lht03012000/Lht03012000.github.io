@@ -1,0 +1,115 @@
+.zing{
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  height: 700px;
+  justify-content: space-between;
+}
+.zing .so1{
+    width: 25%;
+    height: 500px;
+    padding-bottom: 15px;
+}
+.zing .so1 .so1a{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+.zing .so1 .so1a .hinh img{
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.zing .so1 .so1b{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.zing .so1 .so1b .hinh img{
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.zing .so1 .so1c{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.zing .so1 .so1c .hinh img{
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.zing .so1 .so1d{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.zing .so1 .so1d .hinh img{
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.zing .so1 .so1e{
+    display: flex;
+    padding-top: 15px;
+}
+.zing .so1 .so1e .hinh img{
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.zing .so2{
+    width: 40%;
+}
+.zing .so2 .hinh img{
+    width: 100%;
+}
+
+.zing .so3{
+    width: 25%;
+}
+.zing .so3 .hinh img{
+    width: 100%;
+}
+.menu{
+    background-color: white;
+    height: 30px;
+}
+.menungang{
+    list-style:none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    text-align: center;   
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 6px;
+    transition: 0.4s;
+    display: inline-block;
+}
+.menungang li a:hover{
+    color: rgb(38, 173, 226);
+    border-bottom: 5px solid cyan;
+    padding-top: 3px;
+    padding-bottom: 9px;
+}
+.so2 .phai h1{
+    margin: 0px;
+}
+a.link , a.lq{
+    text-decoration: none;
+    margin-right: 10px;
+}
+span.gio {
+    margin-right: 10px;
+}

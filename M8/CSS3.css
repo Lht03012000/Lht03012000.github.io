@@ -1,0 +1,35 @@
+body, html{
+    margin: 0px;
+    height: 100%;
+}
+.menu{
+    font-size: 20px;
+    background-image: url(4.jpg);
+    background-size: cover;
+    height: 100%;
+    font-family: segoue ui light;
+}
+.menu ul{
+    list-style: none;
+    margin: 0px;
+    color: blanchedalmond;
+}
+.menu .InT{
+    transition: 0.4s;
+}
+.menu .InT:hover{
+    margin-left: 20px;
+}
+.menu .InT .icon{
+    display: inline;
+    opacity: 0;
+    transition: 0.4s;
+}
+.menu .InT:hover .icon{
+    opacity: 1;
+}
+
+.menu .InT .text{
+    display: inline;
+    transition: 0.4s;
+}

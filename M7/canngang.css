@@ -1,0 +1,15 @@
+.can{
+    width: 800px;
+    height: 500px;
+    background-image: url(1.jpg);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.can .noidung {
+    background: rgb(71, 64, 64);
+    padding: 10px;
+
+}

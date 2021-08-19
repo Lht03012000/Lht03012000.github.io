@@ -1,0 +1,41 @@
+.bo{
+    position: relative;
+    width: auto;
+    height: auto;
+    max-height: 600px;
+    max-width: 400px;
+}
+.bo .lop1{
+    width: 100%;
+    height: 100%;
+}
+.bo .lop2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54, 52, 52);
+    position: absolute;
+    opacity: 0;
+    top: 0px; left: 0px;
+    transition: 0.5s;
+}
+.bo:hover .lop2{
+    opacity: 0.2;
+}
+.bo .lop3{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 160px;
+    font-size: 100px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0);
+}
+.bo:hover .lop3{
+    opacity: 1;
+    transform: scale(1);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
